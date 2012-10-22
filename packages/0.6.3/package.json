@@ -6,6 +6,10 @@
   "keywords": ["framework", "jquery", "sammy"],
   "licenses": [{"type": "MIT", "url": "http://www.opensource.org/licenses/mit-license.php"}],
   "homepage": "http://code.quirkey.com/sammy",
-  "main": "sammy.js"
-  
+  "main": "sammy.js",
+  "jam":{
+        "dependencies":{
+            "jquery":">1.4.1"
+        }
+    }
 }
